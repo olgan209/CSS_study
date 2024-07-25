@@ -1,0 +1,12 @@
+.ok {
+    color: chocolate;
+}
+
+ #text-in-p{  /*when work with id use # */
+    color: rgb(111, 188, 203);
+}
+
+div p b, div i { /* to show that i need b in div, not all b in file */
+    color: rgb(203, 91, 91);
+}
+
