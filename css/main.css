@@ -10,3 +10,52 @@ div p b, div i { /* to show that i need b in div, not all b in file */
     color: rgb(203, 91, 91);
 }
 
+/* div, .ok, #id, div p {} */
+
+.main-link {
+    color: crimson;
+    text-decoration: none;
+}
+
+.main-link:hover {
+    color: cadetblue;
+    text-decoration: overline ;
+    text-decoration-color: blueviolet;
+    cursor:pointer
+}
+
+p:hover{
+    color: cadetblue;
+    text-decoration: overline ;
+    text-decoration-color: blueviolet;
+}
+
+.main-link:active{
+    text-decoration: line-through;
+}
+
+.main-link:visited{
+    color: gray
+}
+
+input{color:red}
+input:focus {
+    color:aqua
+}
+input:disabled{
+
+}
+
+p.text:not(:empty){
+    color: darkseagreen;
+}
+
+p.text:empty::after{
+    content: attr(title);
+    color: darkorange;
+}
+
+#o::after{
+    content: "123";
+    color: blue;
+}
