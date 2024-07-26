@@ -1,65 +1,15 @@
-.ok {
-    color: chocolate;
-}
-
- #text-in-p{  /*when work with id use # */
-    color: rgb(111, 188, 203);
-}
-
-div p b, div i { /* to show that i need b in div, not all b in file */
-    color: rgb(203, 91, 91);
-}
-
-/* div, .ok, #id, div p {} */
-
-.main-link {
-    color: crimson;
-    text-decoration: none;
-}
-
-.main-link:hover {
-    color: cadetblue;
-    text-decoration: overline ;
-    text-decoration-color: blueviolet;
-    cursor:pointer
-}
-
-p:hover{
-    color: cadetblue;
-    text-decoration: overline ;
-    text-decoration-color: blueviolet;
-}
-
-.main-link:active{
-    text-decoration: line-through;
-}
-
-.main-link:visited{
-    color: gray
-}
-
-input{color:red}
-input:focus {
-    color:aqua
-}
-input:disabled{
-
-}
-p:first-of-type{
-    text-decoration: line-through;
-}
-p.text:not(:empty){
-    color: darkseagreen;
-}
-
-p.text:empty::after{
-    content: attr(title);
-    color: darkorange;
-}
-
-#o::after{
-    content: "123";
-    color: blue;
+.main-text {
+    color: brown;
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    word-spacing: 3.3px;
+    letter-spacing: 3.3px;
+    line-height: 3px;
+    cursor: all-scroll;
 }
 
 #first {
@@ -69,7 +19,8 @@ p.text:empty::after{
     background-repeat: no-repeat;
     background-position: center; */
 
-    background: #4F4552 url('загрузка 6.jpg') no-repeat center center;
+    color: #D39AE4;
+    background: #4F4552 url('https://i.pinimg.com/736x/60/63/da/6063da107454d50c1d7786cc2c2bac75.jpg') no-repeat center center;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
