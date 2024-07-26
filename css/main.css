@@ -45,7 +45,9 @@ input:focus {
 input:disabled{
 
 }
-
+p:first-of-type{
+    text-decoration: line-through;
+}
 p.text:not(:empty){
     color: darkseagreen;
 }
@@ -58,4 +60,21 @@ p.text:empty::after{
 #o::after{
     content: "123";
     color: blue;
+}
+
+#first {
+    /* background-color: #D39AE4;
+    color: #4F4552;
+    background-image: url('https://i.pinimg.com/736x/60/63/da/6063da107454d50c1d7786cc2c2bac75.jpg');
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background: #4F4552 url('загрузка 6.jpg') no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second{
+    height: 2000px;
 }
