@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    background: red;
+    height: 200px;
+    width: 200px;
+    border: 7px dotted purple;
+    border-bottom: 0;
+    border-top-style: solid ;
+    border-style: double;
+
+    border-radius: 15px 50%;
+    opacity: 0.7;
+    /* margin: 20px; /*отступы снаружи*/
+    /*padding: 50px 50px; */
+
+
+    
+}
